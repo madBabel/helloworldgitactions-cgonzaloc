@@ -7,7 +7,19 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo-hello-world
-              run: echo "hola mundo"
+              run: echo "hola mundo1"
 
             - name: fail_step
               run: exit 1
+    job2:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo-hello-world
+              run: echo "hola mundo2"
+
+    job3:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo-hello-world
+              run: echo "hola mundo3"
+
