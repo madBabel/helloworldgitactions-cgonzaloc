@@ -9,8 +9,6 @@ jobs:
             - name: echo-hello-world
               run: echo "hola mundo1"
 
-            - name: fail_step
-              run: exit 1
     job2:
         runs-on: ubuntu-latest
         steps:
